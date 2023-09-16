@@ -18,9 +18,9 @@ public class FxTradingController  {
 	FxTradingServices fxTradingServices;
 
 //checking connection
-	@GetMapping("OlleOlle")
-	public String letsDo() {
-		return "Sab chal rha hai";
+	@GetMapping("FxTrading")
+	public String FxTradingConnectionChecking() {
+		return "Welcome to FxTrading";
 	}
 
 //Get all trade 
